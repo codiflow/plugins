@@ -304,7 +304,7 @@
     <label>Request Buffering</label>
     <type>checkbox</type>
     <advanced>true</advanced>
-    <help>If you enable the WebSocket option, nginx will pass the upgrade header to the backed server.</help>
+    <help>If you enable the Request Buffering option, the entire request body is read from the client before sending the request to a proxied server.</help>
   </field>
   <field>
     <id>location.proxy_max_temp_file_size</id>
